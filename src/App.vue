@@ -16,7 +16,7 @@
           <h2>{{ capitalizeWeather() }}</h2>
         </div>
         
-        <div class="error" v-if="this.error">
+        <div class="error" v-if="error">
           <h2>Cette ville n'a pas été trouvé, veuillez réessayer</h2>
         </div>
       </div>
